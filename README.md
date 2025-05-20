@@ -6,6 +6,9 @@
 
 Remembering to open `~/.bashrc`, `~/.zshrc`, or `~/.config/fish/config.fish`, find the right spot, type `alias mycmd='some long command'`, save, and then `source` the file can be a hassle for quick, everyday aliases.
 
+## DEMO
+![Demo GIF](gst.gif)
+
 ## The Solution
 
 `gst` streamlines this process:
@@ -47,4 +50,16 @@ How to Use gst
  
 * Ensure ~/.local/bin is in your PATH (add to .bashrc, .zshrc, or config.fish if not already).
 
+# How to use
+
+```bash
+# for permanent
+
+gsta ls ls -la
+
+# temporary
+
+gsta -t ls -la
+
+```
   
